@@ -27,7 +27,7 @@ public class test {
         driver.navigate().to("http://www.google.com");
 
         String actualTitle = driver.getTitle();
-        String expectedTitle = "Googl";
+        String expectedTitle = "Google";
         assertEquals(actualTitle, expectedTitle);
     }
 
