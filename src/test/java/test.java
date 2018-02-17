@@ -29,6 +29,7 @@ public class test {
         String actualTitle = driver.getTitle();
         String expectedTitle = "Google";
         assertEquals(actualTitle, expectedTitle);
+        System.out.println("All done");
     }
 
 }
